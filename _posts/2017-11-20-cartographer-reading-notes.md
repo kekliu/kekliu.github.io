@@ -2,7 +2,7 @@
 layout: post
 title:  "Cartographer"
 date:   2017-11-20 09:16:17 +0800
-categories: jekyll update
+categories: SLAM
 ---
 
 ## What is Cartographer?
