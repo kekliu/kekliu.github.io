@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "安装 Linux 重启进入 grub rescue 怎么办？"
-date:   2017-12-09 20:27:00 +0800
-categories: Linux
+layout:     post
+title:      "安装 Linux 重启进入 grub rescue 怎么办？"
+subtitle:   "引导修复"
+date:       2017-12-09 20:27:00 +0800
+author:     "kekliu"
+header-img: "img/post-bg-unix-linux.jpg"
+catalog:    true
+tags:
+    - Linux
 ---
 
 安装完Linux系统，开机进入 grub rescue 界面怎么办？

@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "Cartographer"
-date:   2017-11-20 09:16:17 +0800
-categories: SLAM
+layout:     post
+title:      "UML in Cartographer"
+subtitle:   ""
+date:       2017-11-20 09:16:17 +0800
+author:     "kekliu"
+header-img: "img/post-bg-unix-linux.jpg"
+catalog:    true
+tags:
+    - SLAM
+    - cartographer
 ---
 
 ## What is Cartographer?
@@ -10,11 +16,11 @@ categories: SLAM
 
 
 ## Cartographer源码阅读笔记
-### 程序总体框架和流程说明(含cartographer-ros)
-#### 总体UML
-![fjl]({{"/asserts/images/cartographer-execution-flow.png"}})
+### 1. 程序总体框架和流程说明(含cartographer-ros)
+#### 1.1 总体UML
+![fjl]({{"/img/slam/cartographer-execution-flow.png"}})
 Note: Two key classes: MapBuilder for building map, SensorBridge for preprocessing and sending sensor data to top level.
-##### 关键类说明
+##### 1.2 关键类说明
 * OrderedMultiQueue 储存传感器数据
 * CeresScanMatcher 提供扫描得到的点云到概率格网的匹配算法
 * OptimazationProblem 实现了SPA(Sparse Pose Adjustment)算法,用于闭环优化
