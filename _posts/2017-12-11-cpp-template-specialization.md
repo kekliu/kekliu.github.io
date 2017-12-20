@@ -66,7 +66,7 @@ void fun<int,T>(int, T) {}        // 错误，函数模板不能偏特化
 
 
 template<typename T>
-void fun<int,T>(int, T) {}        // 注意，这里不是特化，是函数重载！！
+void fun(int, T) {}               // 注意，这里不是特化，是函数重载！！
 
 
 // （kramdown简直智障，注释后面还要加回车，最后一行也有毛病）
