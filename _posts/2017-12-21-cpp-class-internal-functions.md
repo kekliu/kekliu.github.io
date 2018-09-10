@@ -20,7 +20,7 @@ tags:
 > Build Type: Release
 
 ### 2. 示例
-``` plaintext
+```
 #include <iostream>
 
 using std::cout;
@@ -124,7 +124,7 @@ int main() {
 
   return 0;
 }
-{% endhighlight %}
+```
 程序运行结果：<br>
 ```
 1. constructor only
