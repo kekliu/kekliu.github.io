@@ -39,7 +39,6 @@ int bin_search(vector<int> nums, int target) {
 ```cpp
 int bin_search_last(vector<int> nums, int target) {
   // warning: the lower_bound should use "<=" instead of "<" above
-  int res = lower_bound(nums, target) - 1;
-  if(res == nums.size()) return -1;
+  return lower_bound(nums, target) - 1;
 }
 ```
