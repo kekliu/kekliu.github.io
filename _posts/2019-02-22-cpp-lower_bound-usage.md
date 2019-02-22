@@ -41,7 +41,7 @@ int upper_bound(vector<int> nums, int target) {
 
 ### 3. 二分查找
 #### 3.1 普通二分查找
-查找成功返回i，否则返回-1。
+查找成功返回`i`，否则返回`-1`。
 ```
 int bin_search(vector<int> nums, int target) {
   int i = lower_bound(nums, target);
@@ -51,7 +51,7 @@ int bin_search(vector<int> nums, int target) {
 #### 3.2 查找值在数组中第一次出现的地方
 同上。
 #### 3.3 查找值在数组中最后一次出现的地方
-查找成功返回i，否则返回-1。
+查找成功返回`i`，否则返回`-1`。
 ```
 int bin_search_last(vector<int> nums, int target) {
   // warning: the lower_bound should use "<=" instead of "<" above
